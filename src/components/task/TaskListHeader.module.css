@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.content p {
+  font-weight: bold;
+  font-size: 0.875rem;
+}
+
+.container aside:first-child {
+  color: var(--blue);
+}
+
+.container aside:last-child {
+  color: var(--purple);
+}
+
+.content span {
+  border-radius: 16px;
+  padding: 2px 10px;
+  background-color: var(--gray-400);
+  color: var(--gray-200);
+  font-size: 0.75rem;
+}
